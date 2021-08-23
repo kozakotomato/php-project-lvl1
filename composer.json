@@ -1,6 +1,9 @@
 {
     "name": "hexlet/code",
+    "bin": "bin/brain-games",
     "type": "project",
+    "description": "project mind-games in Hexlet",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
