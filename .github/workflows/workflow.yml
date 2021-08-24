@@ -1,4 +1,4 @@
-name: PHP Continuous Integration
+name: PHP CI
 on:
   - push
   - pull_request
