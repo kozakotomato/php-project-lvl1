@@ -1,6 +1,8 @@
 {
     "name": "hexlet/code",
-    "bin": "bin/brain-games",
+    "bin": ["bin/brain-games",
+        "bin/brain-even"
+    ],
     "type": "project",
     "description": "project mind-games in Hexlet",
     "license": "AGPL-3.0-or-later",
@@ -8,7 +10,8 @@
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         },
-        "files": ["src/Cli.php"]
+        "files": ["src/Cli.php",
+            "src/Even.php"]
     },
     "authors": [
         {
